@@ -4,7 +4,7 @@
   React: UI kütüphanesi
   React Flow: Akış diyagramları oluşturmak için
   React Icons: Simgeler için
-  Bootstrap (opsiyonel): Temel stil ve responsive için
+  Bootstrap: Temel stil ve responsive için
   
   Proje Özellikleri
   API’den kullanıcı verisi çekme ve tablo içinde listeleme
