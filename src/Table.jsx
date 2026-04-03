@@ -2,10 +2,10 @@ import { useState } from "react";
 import { FaSort } from "react-icons/fa";
 
 function Table({ head, body, searchable }) {
-  const [sorting, setSorting] = useState({});
-  const [search, setSearch] = useState('');
-  const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(5);
+  const [sorting, setSorting] = useState({});// Sıralama bilgisi: hangi sütun, artan mı azalan mı
+  const [search, setSearch] = useState(''); // Arama inputunun değeri
+  const [currentPage, setCurrentPage] = useState(1);// Şu anki aktif sayfa
+  const [itemsPerPage, setItemsPerPage] = useState(5);// Sayfa başına kaç satır gösterilecek
 
   // Filtreleme ve sıralama
   const filteredData = body
